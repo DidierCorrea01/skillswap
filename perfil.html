@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario - SkillSwap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">SkillSwap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="matching.html">Matching Automático</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calendario.html">Calendario</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="perfil.html">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="como-funciona.html">¿Cómo Funciona?</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Perfil de Usuario -->
+    <div class="container my-5">
+        <h2 class="text-center">Perfil de Usuario</h2>
+
+        <!-- Información Básica del Usuario -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/perfil_juan.png" class="card-img-top" alt="Perfil de Usuario">
+                    <div class="card-body">
+                        <h5 class="card-title">Juan Pérez</h5>
+                        <p class="card-text"><strong>Ubicación:</strong> Bogotá, Colombia</p>
+                        <p class="card-text"><strong>Edad:</strong> 30 años</p>
+                        <p class="card-text"><strong>Intereses:</strong> Programación, Desarrollo Web, Inteligencia Artificial</p>
+                        <a href="editar-perfil.html" class="btn btn-warning">Editar Perfil</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Habilidades del Usuario -->
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Habilidades</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Programación en Java</li>
+                            <li class="list-group-item">Desarrollo Web con React</li>
+                            <li class="list-group-item">Diseño de Interfaces con Bootstrap</li>
+                            <li class="list-group-item">Desarrollo de APIs con Spring Boot</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Citas Programadas -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Citas Programadas</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Sesión de intercambio sobre <strong>Programación Java</strong> con <strong>Ana López</strong> - <em>12 de diciembre de 2024, 10:00 AM</em></li>
+                            <li class="list-group-item">Sesión de intercambio sobre <strong>Desarrollo Web</strong> con <strong>Carlos Díaz</strong> - <em>14 de diciembre de 2024, 2:00 PM</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 SkillSwap - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

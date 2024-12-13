@@ -1,0 +1,27 @@
+/* Estilo para el perfil de usuario */
+.container {
+    margin-top: 30px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.list-group-item {
+    font-size: 1.2em;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+/* Ajustes adicionales de estilo */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
